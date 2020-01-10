@@ -1,0 +1,16 @@
+.proxy-list__thead--ip {
+  width: 75%;
+}
+
+.proxy-list__thead--status {
+  width: 15%;
+}
+
+.proxy-list__thead--actions {
+  width: 10%;
+  text-align: center;
+}
+
+.fa.proxy-status-icon {
+  font-size: 18px;
+}

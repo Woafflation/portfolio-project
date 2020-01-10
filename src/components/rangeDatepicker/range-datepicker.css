@@ -1,0 +1,49 @@
+.datepicker__wrap {
+  position: relative;
+  display: flex;
+  z-index: 1;
+}
+
+.modal-content .datepicker__wrap {
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.datepicker {
+  position: absolute;
+  top: 34px;
+  right: 0;
+  display: none;
+  box-shadow: 0 1px 1px #e4e7ed;
+}
+
+.datepicker__wrap .rdrMonthAndYearWrapper,
+.datepicker__wrap .rdrMonths {
+  background-color: #fff;
+}
+
+.datepicker--opened {
+  display: block;
+}
+
+.btn.datepicker__toggle {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.datepicker__wrap .rdrDateDisplayItem input {
+  height: 26px;
+}
+
+.datepicker__wrap .rdrDateDisplay {
+  padding: 3px 6px;
+}
+
+.datepicker__item {
+  position: relative;
+}
+
+.form-control.input--datepicker[readonly] {
+  background-color: #fff;
+}
+

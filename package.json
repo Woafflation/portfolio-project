@@ -1,0 +1,86 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --verbose",
+    "lint": "eslint src/",
+    "yarn": "yarn"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chart.js": "^2.8.0",
+    "classnames": "^2.2.6",
+    "connected-react-router": "^6.3.1",
+    "file-saver": "^2.0.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.4.0",
+    "react": "^16.8.3",
+    "react-countup": "^4.1.3",
+    "react-date-range": "^1.0.0-beta",
+    "react-dom": "^16.8.3",
+    "react-redux": "^7.1.0",
+    "react-redux-loading-bar": "^4.2.0",
+    "react-redux-toastr": "^7.5.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-transition-group": "^2.6.0",
+    "react-use": "^10.5.0",
+    "react-widgets": "^4.4.10",
+    "redux": "^4.0.1",
+    "redux-auth-wrapper": "^2.1.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-form": "^8.1.0",
+    "redux-saga": "^1.0.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^23.6.0",
+    "jest-cli": "^24.5.0",
+    "react-addons-test-utils": "^15.6.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    },
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils",
+      "<rootDir>/node_modules/fbjs"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|ico|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/fileMock.js"
+    },
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  }
+}

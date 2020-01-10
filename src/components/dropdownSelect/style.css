@@ -1,0 +1,19 @@
+div.rw-widget-input {
+  box-shadow: none;
+  background-color: #fff;
+  border: 1px solid #d4dae3;
+  padding-right: 0;
+  padding-left: 0;
+  width: 170px;
+  line-height: 14px;
+}
+
+div.rw-state-focus > .rw-widget-container,
+div.rw-state-focus > .rw-widget-container:hover {
+  border-color: #d4dae3;
+  box-shadow: none;
+}
+
+.rw-list-option {
+  height: 27px;
+}

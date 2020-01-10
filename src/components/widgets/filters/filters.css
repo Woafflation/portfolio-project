@@ -1,0 +1,34 @@
+.table-filter-left {
+  display: block;
+}
+
+.filter-form-input {
+  height: 34px;
+  margin-bottom: 10px;
+}
+
+.filter-form-input .form-group {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .filter-form-input {
+    width: 140px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+
+  .table-filter-form--grid .table-filter-left {
+    flex-wrap: wrap;
+  }
+
+  .table-filter-form--grid .filter-form-input {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .table-filter-left {
+    display: flex;
+  }
+}

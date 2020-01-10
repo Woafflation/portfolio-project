@@ -1,0 +1,73 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "indent": ["error", 2, {
+      "SwitchCase": 1,
+      "ignoredNodes": [
+        "JSXElement",
+        "JSXElement > *",
+        "JSXAttribute", "JSXIdentifier",
+        "JSXNamespacedName",
+        "JSXMemberExpression",
+        "JSXSpreadAttribute",
+        "JSXExpressionContainer",
+        "JSXOpeningElement",
+        "JSXClosingElement",
+        "JSXText",
+        "JSXEmptyExpression",
+        "JSXSpreadChild"
+      ]
+    }],
+    "react/display-name": false,
+    "quotes": ["error", "backtick"],
+    "no-console": "off",
+    "max-len": ["error", {
+      "code": 120
+    }],
+    "comma-dangle": ["error", "always-multiline"],
+    "object-curly-spacing": ["error", "always"],
+    "arrow-parens": "off",
+    "no-undef": "warn",
+    "arrow-body-style": "off",
+    "no-underscore-dangle": "off",
+    "no-await-in-loop": "off",
+    "spaced-comment": "off",
+    "no-plusplus": "off",
+    "guard-for-in": "off",
+    "no-param-reassign": "off",
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off",
+    "no-case-declarations": "off",
+    "semi": "error",
+    "default-case": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "globals": {
+    "window": "readonly",
+    "document": "readonly",
+    "fetch": "readonly",
+    "localStorage": "readonly",
+    "clearTimeout": "readonly",
+    "setTimeout": "readonly",
+    "test": "readonly",
+    "expect": "readonly",
+    "Promise": "readonly",
+    "process": "readonly",
+    "Set": "readonly",
+    "describe": "readonly",
+    "require": "readonly",
+    "it": "readonly",
+    "console": "readonly",
+    "Blob": "readonly"
+  }
+}

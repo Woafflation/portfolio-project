@@ -1,0 +1,65 @@
+.nav-main-header button.header-primary-btn {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nav-main-header .header-primary-btn__text {
+  max-width: 180px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+
+.nav-main-header button.header-primary-btn:focus,
+#sidebar button.header-primary-btn:focus {
+  outline: none;
+}
+
+#sidebar.sidebar-transition-enter {
+  transform: translateX(-100%) translateY(0);
+}
+
+#sidebar.sidebar-transition-enter-active,
+#sidebar.sidebar-transition-enter-done {
+  transform: translateX(0) translateY(0);
+  transition: transform .26s cubic-bezier(.47, 0, .745, .715), -webkit-transform .26s cubic-bezier(.47, 0, .745, .715);
+}
+
+#sidebar.sidebar-transition-exit {
+  transform: translateX(0) translateY(0);
+}
+
+#sidebar.sidebar-transition-exit-active {
+  transform: translateX(-100%) translateY(0);
+  transition: transform .26s cubic-bezier(.47, 0, .745, .715), -webkit-transform .26s cubic-bezier(.47, 0, .745, .715);
+}
+
+#sidebar .header-primary-btn {
+  width: 100%;
+  text-align: left;
+}
+
+.account-item-transition-enter {
+  transform: translateY(-15px);
+}
+
+.account-item-transition-enter-active {
+  transform: translateY(0);
+  transition: all .2s cubic-bezier(.25, .46, .45, .94);
+}
+
+.account-item-transition-exit {
+  transform: translateY(0);
+}
+
+.account-item-transition-exit-active {
+  transform: translateY(-15px);
+  transition: all .2s cubic-bezier(.25, .46, .45, .94);
+}
+
+.progress-line-bar {
+  background-color: #3f9ce8;
+  height: 2px;
+  position: absolute;
+}

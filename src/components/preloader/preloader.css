@@ -1,0 +1,14 @@
+.preloader--little {
+  width: 22px;
+  height: 22px;
+}
+
+.preloader--middle {
+  width: 75px;
+  height: 75px;
+}
+
+.preloader--mini {
+  width: 15px;
+  height: 15px;
+}

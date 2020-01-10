@@ -1,0 +1,23 @@
+.modal.show,
+.modal-backdrop.show {
+  display: block;
+  overflow: auto;
+}
+
+.modal-transition-enter {
+  opacity: 0.01;
+}
+
+.modal-transition-enter-active {
+  opacity: 1;
+  transition: opacity 0.15s ease-out;
+}
+
+.modal-transition-exit {
+  opacity: 1;
+}
+
+.modal-transition-exit-active {
+  opacity: 0.01;
+  transition: opacity 0.15s ease-out;
+}
